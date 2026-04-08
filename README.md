@@ -13,25 +13,24 @@ An end-to-end data analytics and machine learning engine designed to predict cus
 *Evaluating the highly-tuned XGBoost model against a balanced Random Forest baseline. XGBoost outperformed across all key metrics, particularly in ROC-AUC and Recall (the most critical metric for identifying revenue at risk).*
 
 <p align="center">
-  <img src="model_comparison.png" alt="Random Forest vs XGBoost" width="700">
+  <img src="images/model_comparison.png" alt="Random Forest vs XGBoost" width="700">
 </p>
 
 ### 2. Unit Economics: LTV vs. CAC by Segment
 *By calculating a dynamic Customer Lifetime Value based on individual churn probabilities, we identified a 'High Value' segment. As shown below, the LTV dramatically outpaces the Customer Acquisition Cost (CAC) for this cohort, validating a highly profitable growth strategy.*
 
 <p align="center">
-  <img src="ltv_vs_cac.png" alt="LTV vs CAC Unit Economics" width="700">
+  <img src="images/ltv_vs_cac.png" alt="LTV vs CAC Unit Economics" width="700">
 </p>
 
 ## Tech Stack
 * **Language:** Python 
 * **Data Manipulation & Analysis:** Pandas, NumPy
 * **Machine Learning:** Scikit-Learn (Random Forest), XGBoost
-* **Data Visualization:** Matplotlib, Seaborn
+* **Data Visualization:** Matplotlib
 
 ## How to Run the Model Locally
 
-Follow these steps to replicate the environment, generate the synthetic dataset, and train the models on your own machine.
 
 ### 1. Install Dependecies
 ```bash
