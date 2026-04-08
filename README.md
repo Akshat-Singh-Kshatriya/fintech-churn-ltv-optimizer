@@ -29,3 +29,7 @@ pip install -r requirements.txt
 git clone [https://github.com/yourusername/fintech-churn-ltv-optimizer.git](https://github.com/yourusername/fintech-churn-ltv-optimizer.git)
 cd fintech-churn-ltv-optimizer
 ```
+### 3. Run the Notebook
+```bash
+jupyter project
+```
