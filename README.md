@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/fintech-churn-ltv-optimizer.git](https://github.com/yourusername/fintech-churn-ltv-optimizer.git)
+git clone [https://github.com/Akshat-Singh-Kshatriya/fintech-churn-ltv-optimizer.git](https://github.com/Akshat-Singh-Kshatriya/fintech-churn-ltv-optimizer.git)
 cd fintech-churn-ltv-optimizer
 ```
 
