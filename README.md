@@ -9,6 +9,29 @@ This project was built to demonstrate how predictive modeling can drive high-imp
 * **Predictive Churn Engine:** Trained, tuned, and compared Random Forest and XGBoost classifiers. Successfully handled severe class imbalance to achieve an **0.81 ROC-AUC score** and a **73% Recall rate**—allowing for the early identification of roughly 3 out of 4 churning users before they leave.
 * **Actionable Business Strategy:** Moved beyond pure accuracy by translating model probabilities into financial unit economics. Segmented users dynamically to uncover a "High Value" customer base yielding a massive **41x LTV-to-CAC ratio** ($1,936 LTV vs. $48 CAC), providing a data-backed blueprint for allocating marketing and retention budgets.
 
+## 📈 Visual Insights
+
+### 1. Model Performance: Risk Separation
+*The XGBoost model successfully separates retained users (green) from high-risk churners (red). This distinct separation proves the model's high ROC-AUC score and its ability to identify users who need immediate retention interventions.*
+
+<p align="center">
+  <img src="assets/risk_distribution.png" alt="Risk Distribution Plot" width="700">
+</p>
+
+### 2. Unit Economics: LTV vs. CAC by Segment
+*By calculating a dynamic Customer Lifetime Value based on individual churn probabilities, we identified a 'High Value' segment. As shown below, the LTV dramatically outpaces the Customer Acquisition Cost (CAC) for this cohort, validating a highly profitable growth strategy.*
+
+<p align="center">
+  <img src="assets/ltv_vs_cac.png" alt="LTV vs CAC Unit Economics" width="700">
+</p>
+
+### 3. Algorithm Comparison
+*Evaluating the highly-tuned XGBoost model against a balanced Random Forest baseline. XGBoost outperformed across all key metrics, particularly in ROC-AUC and Recall (the most critical metric for identifying revenue at risk).*
+
+<p align="center">
+  <img src="assets/model_comparison.png" alt="Random Forest vs XGBoost" width="700">
+</p>
+
 ## Tech Stack
 * **Language:** Python 
 * **Data Manipulation & Analysis:** Pandas, NumPy
