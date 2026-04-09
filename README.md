@@ -19,7 +19,7 @@ This project analyzes a 2-year UK retail dataset (805,000+ transactions) to brid
 ![GTM Dashboard](images/dashboard_inputs.png)
 *(The dashboard visualizes our customer personas, the accuracy of our LTV predictions, and our overall retention/churn rate).*
 
-## 🛠️ How to Run This Project
+## How to Run 
 ### 1. Clone the repository
 ```bash
    git clone [https://github.com/Akshat-Singh-Kshatriya/fintech-churn-ltv-optimizer.git](https://github.com/Akshat-Singh-Kshatriya/fintech-churn-ltv-optimizer.git)
@@ -30,5 +30,5 @@ This project analyzes a 2-year UK retail dataset (805,000+ transactions) to brid
 ```bash
    pip install -r requirements.txt
 ```
-### 3. Run the Jupyter Notebook
+
    
