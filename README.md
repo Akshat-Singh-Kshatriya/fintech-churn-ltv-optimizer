@@ -1,9 +1,7 @@
 # Customer Segmentation & Lifetime Value Prediction 
 
 ## Project Overview
-To successfully design a market entry and expansion strategy, a GTM team must deeply understand the existing customer base. This project analyzes a 2-year UK retail dataset (805,000+ transactions) to bridge the gap between raw data and actionable Go-To-Market strategies. 
-
-By answering two critical business questions—*Who are our most valuable customers?* and *How much will they spend in the future?*—this project enables the growth team to optimize Customer Acquisition Cost (CAC) and improve Customer Lifetime Value (CLV).
+This project analyzes a 2-year UK retail dataset (805,000+ transactions) to bridge the gap between raw data and actionable Go-To-Market strategies. By answering two critical business questions—*Who are our most valuable customers?* and *How much will they spend in the future?*—this project enables the growth team to optimize Customer Acquisition Cost (CAC) and improve Customer Lifetime Value (CLV).
 
 ## Business Impact & Outcomes
 1. **Customer Obsession (Churn Analysis):** Identified a **36.10% Year-over-Year Customer Churn Rate**, highlighting the critical need for retention-focused marketing in parallel with new market expansion.
@@ -23,7 +21,9 @@ By answering two critical business questions—*Who are our most valuable custom
 ## 🛠️ How to Run This Project
 ### 1. Clone the repository
 ```bash
-   pip install -r requirements.txt
+   git clone [https://github.com/Akshat-Singh-Kshatriya/fintech-churn-ltv-optimizer.git](https://github.com/Akshat-Singh-Kshatriya/fintech-churn-ltv-optimizer.git)
+   cd FareFocus-Boston
+  
 ```
 ### 2. Install dependencies 
 ```bash
