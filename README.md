@@ -22,7 +22,7 @@ This project analyzes a 2-year UK retail dataset (805,000+ transactions) to brid
 ### 1. Clone the repository
 ```bash
    git clone [https://github.com/Akshat-Singh-Kshatriya/fintech-churn-ltv-optimizer.git](https://github.com/Akshat-Singh-Kshatriya/fintech-churn-ltv-optimizer.git)
-   cd FareFocus-Boston
+   cd fintech-churn-ltv-optimizer
   
 ```
 ### 2. Install dependencies 
