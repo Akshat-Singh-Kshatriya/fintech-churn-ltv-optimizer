@@ -15,7 +15,7 @@ This project analyzes a 2-year UK retail dataset (805,000+ transactions) to brid
 * **Supervised Learning:** Built a **Random Forest Regressor** to accurately forecast Year 2 spend using Year 1 transaction features.
 
 ## 📊 Visual Dashboard
-![GTM Dashboard](images/dashboard_results.png)
+![GTM Dashboard](images/dashboard_inputs.png)
 *(The dashboard visualizes our customer personas, the accuracy of our LTV predictions, and our overall retention/churn rate).*
 
 ## 🛠️ How to Run This Project
