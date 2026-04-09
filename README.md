@@ -1,44 +1,33 @@
-# FinTech Customer Churn & LTV Optimizer 
+# Customer Segmentation & Lifetime Value Prediction 
 
-An end-to-end data analytics and machine learning engine designed to predict customer churn in a digital payments environment and optimize Customer Acquisition Cost (CAC) against Customer Lifetime Value (LTV). This project was built to demonstrate how predictive modeling can drive high-impact FinTech growth strategies by identifying high-risk users and maximizing marketing ROI.
+## Project Overview
+To successfully design a market entry and expansion strategy, a GTM team must deeply understand the existing customer base. This project analyzes a 2-year UK retail dataset (805,000+ transactions) to bridge the gap between raw data and actionable Go-To-Market strategies. 
 
-## Project Highlights
-* **High-Signal Feature Engineering:** Engineered complex "transaction velocity" and engagement drop-off features from a 10,000+ user dataset to expose hidden behavioral churn patterns.
-* **Predictive Churn Engine:** Trained, tuned, and compared Random Forest and XGBoost classifiers. Successfully handled severe class imbalance to achieve an **0.81 ROC-AUC score** and a **73% Recall rate**—allowing for the early identification of roughly 3 out of 4 churning users before they leave.
-* **Actionable Business Strategy:** Moved beyond pure accuracy by translating model probabilities into financial unit economics. Segmented users dynamically to uncover a "High Value" customer base yielding a massive **41x LTV-to-CAC ratio** ($1,936 LTV vs. $48 CAC), providing a data-backed blueprint for allocating marketing and retention budgets.
+By answering two critical business questions—*Who are our most valuable customers?* and *How much will they spend in the future?*—this project enables the growth team to optimize Customer Acquisition Cost (CAC) and improve Customer Lifetime Value (CLV).
 
-### Visual Insights
-
-### 1. Algorithm Comparison
-*Evaluating the highly-tuned XGBoost model against a balanced Random Forest baseline. XGBoost outperformed across all key metrics, particularly in ROC-AUC and Recall (the most critical metric for identifying revenue at risk).*
-
-<p align="center">
-  <img src="images/model_comparison.png" alt="Random Forest vs XGBoost" width="700">
-</p>
-
-### 2. Unit Economics: LTV vs. CAC by Segment
-*By calculating a dynamic Customer Lifetime Value based on individual churn probabilities, we identified a 'High Value' segment. As shown below, the LTV dramatically outpaces the Customer Acquisition Cost (CAC) for this cohort, validating a highly profitable growth strategy.*
-
-<p align="center">
-  <img src="images/ltv_vs_cac.png" alt="LTV vs CAC Unit Economics" width="700">
-</p>
+## Business Impact & Outcomes
+1. **Customer Obsession (Churn Analysis):** Identified a **36.10% Year-over-Year Customer Churn Rate**, highlighting the critical need for retention-focused marketing in parallel with new market expansion.
+2. **Target Audience Definition:** Utilized **K-Means Clustering** on RFM (Recency, Frequency, Monetary) metrics to discover 4 distinct customer personas. This allows the GTM team to build highly targeted lookalike audiences for new market entry.
+3. **Balancing CAC vs. LTV:** Trained a **Random Forest Regressor (R² = 0.61)** to predict a customer's 12-month future spend based purely on their early behavior. This empowers the growth team to dynamically adjust acquisition spend based on predicted profitability.
 
 ## Tech Stack
-* **Language:** Python 
-* **Data Manipulation & Analysis:** Pandas, NumPy
-* **Machine Learning:** Scikit-Learn (Random Forest), XGBoost
-* **Data Visualization:** Matplotlib
+* **Data Engineering:** Cleaned and merged multi-year transactional data, handling returns, cancellations, and missing values.
+* **Feature Engineering:** Calculated RFM (Recency, Frequency, Monetary) scores at the user level.
+* **Unsupervised Learning:** Applied **K-Means Clustering** (validated via Silhouette Score) to segment the customer base without pre-existing labels.
+* **Supervised Learning:** Built a **Random Forest Regressor** to accurately forecast Year 2 spend using Year 1 transaction features.
 
-## How to Run the Model Locally
+## 📊 Visual Dashboard
+![GTM Dashboard](images/dashboard_results.png)
+*(The dashboard visualizes our customer personas, the accuracy of our LTV predictions, and our overall retention/churn rate).*
 
-
-### 1. Install Dependecies
+## 🛠️ How to Run This Project
+### 1. Clone the repository
 ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
 ```
-### 2. Clone the Repository
+### 2. Install dependencies 
 ```bash
-git clone [https://github.com/Akshat-Singh-Kshatriya/fintech-churn-ltv-optimizer.git](https://github.com/Akshat-Singh-Kshatriya/fintech-churn-ltv-optimizer.git)
-cd fintech-churn-ltv-optimizer
+   pip install -r requirements.txt
 ```
-
+### 3. Run the Jupyter Notebook
+   
