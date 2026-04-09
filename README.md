@@ -13,7 +13,7 @@ This project analyzes a 2-year UK retail dataset (805,000+ transactions) to brid
 * **Feature Engineering:** Calculated RFM (Recency, Frequency, Monetary) scores at the user level.
 * **Unsupervised Learning:** Applied **K-Means Clustering** (validated via Silhouette Score) to segment the customer base without pre-existing labels.
 * **Supervised Learning:** Built a **Random Forest Regressor** to accurately forecast Year 2 spend using Year 1 transaction features.
-* **Data Source**:** [Online Retail II UCI](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
+* **Data Source**: [Online Retail II UCI](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
 
 ## Visual Dashboard
 ![GTM Dashboard](images/dashboard_inputs.png)
